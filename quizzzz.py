@@ -39,3 +39,5 @@ for key, value in quiz.items():
     else:
         print("Estás loc@, la respuesta es ", value["respuesta"])
         print("Tu puntaje: ", str(puntaje))
+
+print("Puntaje final: ", puntaje, ". Es decir, un",str(puntaje*20),"%.")
